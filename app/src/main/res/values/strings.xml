@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Respown Apps</string>
+    <string name="divisi">KPTI PDM</string>
+    <string name="tahun">2019</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_add">Simpan</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_register_account">No account yet?</string>
+    <string name="text_not_member"> Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Koperasi PropertyToday Indonesia</string>
+
+    <string name="title_activity_drawer_navigation">DrawerNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Koperasi PropertyToday Indonesia</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+        <!-- menu drawer    -->
+    <string name="menu_add_respown">Tambah Respown</string>
+    <string name="menu_hot_prospek">Hot Prospek</string>
+    <string name="menu_jadwal">Jadwal Survei</string>
+    <string name="menu_data">Data Respown</string>
+    <string name="menu_tentang">Tentang</string>
+
+
+        <!--   -->
+
+    <string name="judul">Isi Data Respown</string>
+    <string name="nama_konsumen">Nama Konsumen</string>
+    <string name="alamat_konsumen">Alamat Konsumen</string>
+    <string name="sumber_respown">Sumber Respown</string>
+    <string name="tanggal_respown">Tanggal Respown</string>
+    <string name="status">Status konsumen</string>
+    <string name="minat_lokasi">Minat Lokasi</string>
+    <string name="jadwal_survei">Jadwal Survei</string>
+    <string name="catatan">Catatan</string>
+
+
+        <!-- Spinner -->
+
+    <string-array name="sumber">
+        <item>Sumber Respown</item>
+        <item>OLX</item>
+        <item>REJ</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>

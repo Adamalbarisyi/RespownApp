@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_add_respon">
+
+    <fragment
+        android:id="@+id/nav_add_respon"
+        android:name="com.kpti.respownapp.navigation.ui.add.AddFragment"
+        android:label="@string/menu_add_respown"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/nav_hot_prospek"
+        android:name="com.kpti.respownapp.navigation.ui.hotProspek.HotProspekFragment"
+        android:label="@string/menu_hot_prospek"
+        tools:layout="@layout/fragment_hot_prospek" />
+
+    <fragment
+        android:id="@+id/nav_jadwal"
+        android:name="com.kpti.respownapp.navigation.ui.jadwal.JadwalFragment"
+        android:label="@string/menu_jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+
+    <fragment
+        android:id="@+id/nav_data_respown"
+        android:name="com.kpti.respownapp.navigation.ui.dataRespown.DataRespownFragment"
+        android:label="@string/menu_data"
+        tools:layout="@layout/fragment_data_respown" />
+
+    <fragment
+        android:id="@+id/nav_tentang"
+        android:name="com.kpti.respownapp.navigation.ui.tentang.TentangFragment"
+        android:label="@string/menu_tentang"
+        tools:layout="@layout/fragment_tentang" />
+
+</navigation>
